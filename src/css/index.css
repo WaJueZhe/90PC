@@ -1,0 +1,77 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ body {
+   height: 100%;
+   font-size: 14px;
+   font-family: Arial, '微软雅黑';
+   color: #666;
+   background-image: url(../assets/banner2.jpg);
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center top;
+   background-repeat: no-repeat;
+   overflow-x: hidden;
+ }
+
+ ul,
+ ol,
+ li {
+   list-style: none;
+ }
+
+ a {
+   text-decoration: none;
+   display: inline-block;
+   color: #666;
+   outline: 0;
+ }
+
+ a:hover {
+   text-decoration: none
+ }
+
+ img {
+   display: block;
+ }
+
+ #app {
+  height: 100%;
+}
+
+.w {
+  margin: 0 auto;
+  padding: 15px;
+  width: 1200px;
+  /* min-height: calc(100vh - 280px); */
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+textarea {
+  border: none;
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #999;
+}
+input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #999;
+}
+input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #999;
+}
+input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #999;
+}
